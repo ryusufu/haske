@@ -186,6 +186,46 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #e8491d;
+  background-color: #008081;
   text-align:center;
+}
+
+/* Media Queries*/
+@media(max-width: 768px){
+header #branding,
+header nav,
+header nav li,
+#newsletter h1,
+#newsletter form,
+#boxes .box,
+aside#sidebar,
+article#main-col{
+  float: none;
+  text-align: center;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#newsletter h1{
+  font-size: 15px;
+  padding-bottom:0px;
+  line-height: 0px;
+
+}
+
+#newsletter button, .quote button{
+  display: block;
+  width: 100%;
+}
+
+#newsletter form input[type="email"],.quote input, .quote textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+header{
+  padding-bottom: 20px;
+}
 }
