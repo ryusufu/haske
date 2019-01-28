@@ -191,7 +191,7 @@ footer{
 }
 
 /* Media Queries*/
-@media(max-width: 768px){
+@media(max-width: 800px){
 header #branding,
 header nav,
 header nav li,
@@ -203,9 +203,11 @@ article#main-col{
   float: none;
   text-align: center;
   width: 100%;
-  padding-left: 5px;
+  padding-left: 4px;
   padding-right: 5px;
+
 }
+
 
 #newsletter h1{
   font-size: 15px;
@@ -224,8 +226,17 @@ article#main-col{
   margin-bottom: 5px;
 }
 
+nav li {
+margin-left: -6px;
+}
+
+nav li a{
+  font-size: 14px;
+  padding: 0 1px;
+}
 
 header{
   padding-bottom: 20px;
 }
+
 }
