@@ -199,7 +199,8 @@ header nav li,
 #newsletter form,
 #boxes .box,
 aside#sidebar,
-article#main-col{
+article#main-col,
+.contact{
   float: none;
   text-align: center;
   width: 100%;
